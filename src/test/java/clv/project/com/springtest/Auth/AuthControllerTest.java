@@ -47,7 +47,7 @@ public class AuthControllerTest {
 
     @Test
     public void testLogin() throws Exception {
-        // Mocking del servicio Login
+        // Mocking del servicio Login saasd
         LoginRequest loginRequest = new LoginRequest("testeo9", "1234", "73776464");
         AuthResponse expectedResponse = new AuthResponse("testtoken");
 
