@@ -1,0 +1,23 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://roundhouse.proxy.rlwy.net:43213/railway
+    username: root
+    password: CZCaTfNrjHSryAEjVjFgRLsqvWNJgIKm
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
+  security:
+    user:
+      name: root
+      password: root
+
+  main:
+    allow-bean-definition-overriding: true
